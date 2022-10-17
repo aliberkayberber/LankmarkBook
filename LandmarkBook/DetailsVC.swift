@@ -11,15 +11,19 @@ class DetailsVC: UIViewController {
 
     @IBOutlet weak var landmarkLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var landmarkDetails: UILabel!
+    
     
     var selectedLandmarkName = ""
     var selectedLandmarkImage = UIImage()
+    var selectedLandmarkDetails = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         landmarkLabel.text = selectedLandmarkName
         imageView.image = selectedLandmarkImage
+        landmarkDetails.text = selectedLandmarkDetails
         
     }
     

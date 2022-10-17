@@ -61,6 +61,13 @@
                                     <constraint firstAttribute="height" constant="260" id="c1y-03-0VE"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Details" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dvj-5S-TBn">
+                                <rect key="frame" x="16" y="573" width="358" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DUh-Yg-a28"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -76,6 +83,7 @@
                     <navigationItem key="navigationItem" id="oDY-4E-c0a"/>
                     <connections>
                         <outlet property="imageView" destination="mCv-8f-YQL" id="AQP-gF-Q1w"/>
+                        <outlet property="landmarkDetails" destination="Dvj-5S-TBn" id="GJM-m2-aMr"/>
                         <outlet property="landmarkLabel" destination="E5q-Z8-rOh" id="pKd-Ew-UDV"/>
                     </connections>
                 </viewController>

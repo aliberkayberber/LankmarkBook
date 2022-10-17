@@ -13,6 +13,7 @@
 		DD0B347528FB2F62004E6031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0B347328FB2F62004E6031 /* Main.storyboard */; };
 		DD0B347728FB2F62004E6031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0B347628FB2F62004E6031 /* Assets.xcassets */; };
 		DD0B347A28FB2F62004E6031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0B347828FB2F62004E6031 /* LaunchScreen.storyboard */; };
+		DD35B29C28FDC9B500DA4680 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35B29B28FDC9B500DA4680 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DD0B347628FB2F62004E6031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD0B347928FB2F62004E6031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD0B347B28FB2F62004E6031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD35B29B28FDC9B500DA4680 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DD0B347628FB2F62004E6031 /* Assets.xcassets */,
 				DD0B347828FB2F62004E6031 /* LaunchScreen.storyboard */,
 				DD0B347B28FB2F62004E6031 /* Info.plist */,
+				DD35B29B28FDC9B500DA4680 /* DetailsVC.swift */,
 			);
 			path = LandmarkBook;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD0B347228FB2F62004E6031 /* ViewController.swift in Sources */,
+				DD35B29C28FDC9B500DA4680 /* DetailsVC.swift in Sources */,
 				DD0B346E28FB2F62004E6031 /* AppDelegate.swift in Sources */,
 				DD0B347028FB2F62004E6031 /* SceneDelegate.swift in Sources */,
 			);
